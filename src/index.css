@@ -12,7 +12,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 .features-3 .bg {
   height: 100vh;
   box-sizing: border-box;
@@ -64,3 +63,48 @@ code {
      font-size: 86px;
      font-weight: 900;
    }
+   .btn {
+    border-radius: 0px !important;
+  }
+
+  .desktop-show {
+    display: block !important;
+  }
+
+  .desktop-hide {
+    display: none !important;
+  }
+
+@media (min-width: 1200px) {
+
+  
+
+ }
+
+
+
+   @media (max-width: 480px) {
+    .rotator {
+      font-size: 56px;
+      top: -30px;
+    bottom: 80px;
+    
+    }
+    .mobile-hide {
+      display: none !important;
+    }
+    .mobile-show {
+      display: block !important;
+    }
+
+    .features-3 .bg {
+      width: 120%;
+      height: 120vh;
+    }
+
+    .inset-xxs-left-0 {
+      padding-left: 0px !important;
+    }
+  }
+
+   

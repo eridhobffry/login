@@ -31,7 +31,7 @@ const content = [
  
 const TextRotator = () => (
   <div className="rotator shell">
-      <div className="inset-left-100 inset-right-100">
+      <div className="inset-xxs-left-0 inset-left-100 inset-right-100">
       <ReactTextRotator
       content={content}
       time={5000}

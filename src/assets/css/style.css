@@ -9435,10 +9435,10 @@ html .page .inset-left-30 {
 }
 
 @media (min-width: 480px) {
-	html .page .inset-xs-left-0 {
+	.inset-xs-left-0 {
 		padding-left: 0;
 	}
-	html .page .inset-xs-left-10 {
+	.inset-xs-left-10 {
 		padding-left: 10px;
 	}
 	html .page .inset-xs-left-20 {
